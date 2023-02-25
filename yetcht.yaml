@@ -5,95 +5,95 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 新加坡 010, server: 51.79.173.222, port: 80, type: vmess, uuid: a72bd7a7-732d-46c1-8274-bf16bca30e78, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /vmess, ws-headers: {Host: 51.79.173.222}, udp: true}
-  - {name: 美国 096, server: 143.198.219.182, port: 80, type: vmess, uuid: e9c4ce52-9a78-4381-b6f8-23350bc4d606, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 143.198.219.182}, udp: true}
-  - {name: v2rayfree.eu.org - 加拿大多伦多Oracle云计算数据中心 52, server: 132.145.99.228, port: 13724, type: vmess, uuid: 52768552-c2b2-4460-89f1-e740cc145b99, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /ws-path, ws-headers: {Host: 132.145.99.228}, udp: true}
-  - {name: 爱尔兰 001, server: ie-ls03.nb1.fr, port: 64443, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /clientarea, ws-headers: {Host: ie-ls03.nb1.fr}, udp: true}
-  - {name: 美国 051, server: 172.67.207.209, port: 2082, type: vmess, uuid: 082122a2-8479-4089-82f0-f32ba5fc5426, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /bb, ws-headers: {Host: hao.huaqian.icu}, udp: true}
-  - {name: 美国 134, server: 129.152.13.117, port: 11691, type: vmess, uuid: 52768552-c2b2-4460-89f1-e740cc145b99, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /ws-path, ws-headers: {Host: 129.152.13.117}, udp: true}
-  - {name: 印度 001, server: 68.183.83.94, port: 59477, type: vmess, uuid: b8f6a71c-6925-4e84-fb93-6e54f8d98b25, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 68.183.83.94}, udp: true}
-  - {name: 德国 004, server: 51.38.99.96, port: 443, type: trojan, password: b8808043-6566-4923-9195-e66bfb553d57, skip-cert-verify: true, udp: true}
-  - {name: 美国 072, server: project.mytargoocloud.live, port: 443, type: vmess, uuid: dd83e305-d487-4242-87be-67e3f52116fd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: "/?ed=2048", ws-headers: {Host: sgm1.targoocloud.live}, udp: true}
-  - {name: 日本 003, server: vau1.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /chat, ws-headers: {Host: vau1.0bad.com}, udp: true}
-  - {name: 美国 101, server: 152.69.206.73, port: 12794, type: vmess, uuid: 52768552-c2b2-4460-89f1-e740cc145b99, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /ws-path, ws-headers: {Host: 152.69.206.73}, udp: true}
-  - {name: 韩国 003, server: 152.67.218.216, port: 17992, type: vmess, uuid: 52768552-c2b2-4460-89f1-e740cc145b99, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /ws-path, ws-headers: {Host: 152.67.218.216}, udp: true}
-  - {name: v2rayfree.eu.org - 澳大利亚Cranbourne Secondary College 5, server: 203.30.191.18, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /dongtaiwang.com, ws-headers: {Host: clash6.ssr-free.xyz}, udp: true}
-  - {name: 美国 079, server: 35.77.86.41, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 美国 151, server: 51.91.248.209, port: 10000, type: vmess, uuid: ff7c5648-b275-11ed-8842-2f75954514f8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /vpnjantit, ws-headers: {Host: 51.91.248.209}, udp: true}
-  - {name: 美国 006, server: c.mg.us.cat77.cloud, port: 8646, type: trojan, password: cd27884b-c5af-34ec-b75f-8248077818fe, sni: c.mg.us.cat77.cloud, skip-cert-verify: true, udp: true}
-  - {name: v2rayfree.eu.org - 美国RF Engineering 65, server: 141.193.213.21, port: 443, type: vmess, uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /9JZFDTKE, ws-headers: {Host: fr1.trump2023.org}, udp: true}
-  - {name: v2rayfree.eu.org - 英国社会保险安全部 37, server: 51.161.118.38, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 新加坡_youtube_lsj开车_110, server: 51.79.173.222, port: 80, type: vmess, uuid: a72bd7a7-732d-46c1-8274-bf16bca30e78, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /vmess, ws-headers: {Host: 51.79.173.222}, udp: true}
+  - {name: US-173.230.152.185-220, server: vus3.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /chat, ws-headers: {Host: vus3.0bad.com}, udp: true}
+  - {name: 美国_youtube_lsj开车_112, server: 170.178.179.189, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/031730091420, ws-headers: {Host: 170.178.179.189}, udp: true}
+  - {name: US-129.159.39.30-235, server: c.mg.us.cat77.cloud, port: 8646, type: trojan, password: cd27884b-c5af-34ec-b75f-8248077818fe, sni: c.mg.us.cat77.cloud, skip-cert-verify: true, udp: true}
+  - {name: 美国 016, server: cf.isi.lol, port: 2096, type: vmess, uuid: bc08be42-471a-4149-b622-06df0862734d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: c7d5ea85.adorc.ml}, udp: true}
+  - {name: 美国_youtube_lsj开车_90, server: 170.178.179.189, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/031730091420, ws-headers: {Host: 170.178.179.189}, udp: true}
+  - {name: 美国-加利福尼亚-0-v2ray-129.152.13.117:11691, server: 129.152.13.117, port: 11691, type: vmess, uuid: 52768552-c2b2-4460-89f1-e740cc145b99, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /ws-path, ws-headers: {Host: 129.152.13.117}, udp: true}
+  - {name: 法国_youtube_lsj开车_24, server: 57.128.173.6, port: 443, type: vmess, uuid: 1015775e-618c-49d9-be99-7ec04e1a572e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /freevmess, ws-headers: {Host: 57.128.173.6}, udp: true}
+  - {name: 美国 011, server: cf.isi.lol, port: 2096, type: vmess, uuid: bc08be42-471a-4149-b622-06df0862734d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: 4e7cc378.adorc.ml}, udp: true}
+  - {name: 中国_youtube_lsj开车_113, server: 36.156.102.164, port: 10003, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_1_4@0, server: 155.248.193.254, port: 31853, type: trojan, password: jKRJgS7uvI, skip-cert-verify: true, udp: true}
+  - {name: _FR_法国_2@14, server: 51.38.99.96, port: 443, type: trojan, password: b8808043-6566-4923-9195-e66bfb553d57, skip-cert-verify: true, udp: true}
+  - {name: 美国 014, server: cf.isi.lol, port: 2096, type: vmess, uuid: bc08be42-471a-4149-b622-06df0862734d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: 3464a64e.adorc.ml}, udp: true}
+  - {name: 加拿大_youtube_lsj开车_32, server: 23.227.38.38, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ECTCJ0DF, ws-headers: {Host: lg1.trump2023.us}, udp: true}
+  - {name: 印度_youtube_lsj开车_16, server: 152.67.161.155, port: 17355, type: vmess, uuid: 52768552-c2b2-4460-89f1-e740cc145b99, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /ws-path, ws-headers: {Host: 152.67.161.155}, udp: true}
+  - {name: 美国-0-0-v2ray-hk-2.sharecentre.online:443, server: hk-2.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: hk-2.sharecentre.online}, udp: true}
+  - {name: 美国 015, server: cf.isi.lol, port: 2096, type: vmess, uuid: bc08be42-471a-4149-b622-06df0862734d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: 4bb4ced4.adorc.ml}, udp: true}
+  - {name: 美国 010, server: cf.isi.lol, port: 2096, type: vmess, uuid: bc08be42-471a-4149-b622-06df0862734d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: 84a514ba.adorc.ml}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 新加坡 010
-      - 美国 096
-      - v2rayfree.eu.org - 加拿大多伦多Oracle云计算数据中心 52
-      - 爱尔兰 001
-      - 美国 051
-      - 美国 134
-      - 印度 001
-      - 德国 004
-      - 美国 072
-      - 日本 003
-      - 美国 101
-      - 韩国 003
-      - v2rayfree.eu.org - 澳大利亚Cranbourne Secondary College 5
-      - 美国 079
-      - 美国 151
-      - 美国 006
-      - v2rayfree.eu.org - 美国RF Engineering 65
-      - v2rayfree.eu.org - 英国社会保险安全部 37
+      - 新加坡_youtube_lsj开车_110
+      - US-173.230.152.185-220
+      - 美国_youtube_lsj开车_112
+      - US-129.159.39.30-235
+      - 美国 016
+      - 美国_youtube_lsj开车_90
+      - 美国-加利福尼亚-0-v2ray-129.152.13.117:11691
+      - 法国_youtube_lsj开车_24
+      - 美国 011
+      - 中国_youtube_lsj开车_113
+      - _US_美国_1_4@0
+      - _FR_法国_2@14
+      - 美国 014
+      - 加拿大_youtube_lsj开车_32
+      - 印度_youtube_lsj开车_16
+      - 美国-0-0-v2ray-hk-2.sharecentre.online:443
+      - 美国 015
+      - 美国 010
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 新加坡 010
-      - 美国 096
-      - v2rayfree.eu.org - 加拿大多伦多Oracle云计算数据中心 52
-      - 爱尔兰 001
-      - 美国 051
-      - 美国 134
-      - 印度 001
-      - 德国 004
-      - 美国 072
-      - 日本 003
-      - 美国 101
-      - 韩国 003
-      - v2rayfree.eu.org - 澳大利亚Cranbourne Secondary College 5
-      - 美国 079
-      - 美国 151
-      - 美国 006
-      - v2rayfree.eu.org - 美国RF Engineering 65
-      - v2rayfree.eu.org - 英国社会保险安全部 37
+      - 新加坡_youtube_lsj开车_110
+      - US-173.230.152.185-220
+      - 美国_youtube_lsj开车_112
+      - US-129.159.39.30-235
+      - 美国 016
+      - 美国_youtube_lsj开车_90
+      - 美国-加利福尼亚-0-v2ray-129.152.13.117:11691
+      - 法国_youtube_lsj开车_24
+      - 美国 011
+      - 中国_youtube_lsj开车_113
+      - _US_美国_1_4@0
+      - _FR_法国_2@14
+      - 美国 014
+      - 加拿大_youtube_lsj开车_32
+      - 印度_youtube_lsj开车_16
+      - 美国-0-0-v2ray-hk-2.sharecentre.online:443
+      - 美国 015
+      - 美国 010
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 新加坡 010
-      - 美国 096
-      - v2rayfree.eu.org - 加拿大多伦多Oracle云计算数据中心 52
-      - 爱尔兰 001
-      - 美国 051
-      - 美国 134
-      - 印度 001
-      - 德国 004
-      - 美国 072
-      - 日本 003
-      - 美国 101
-      - 韩国 003
-      - v2rayfree.eu.org - 澳大利亚Cranbourne Secondary College 5
-      - 美国 079
-      - 美国 151
-      - 美国 006
-      - v2rayfree.eu.org - 美国RF Engineering 65
-      - v2rayfree.eu.org - 英国社会保险安全部 37
+      - 新加坡_youtube_lsj开车_110
+      - US-173.230.152.185-220
+      - 美国_youtube_lsj开车_112
+      - US-129.159.39.30-235
+      - 美国 016
+      - 美国_youtube_lsj开车_90
+      - 美国-加利福尼亚-0-v2ray-129.152.13.117:11691
+      - 法国_youtube_lsj开车_24
+      - 美国 011
+      - 中国_youtube_lsj开车_113
+      - _US_美国_1_4@0
+      - _FR_法国_2@14
+      - 美国 014
+      - 加拿大_youtube_lsj开车_32
+      - 印度_youtube_lsj开车_16
+      - 美国-0-0-v2ray-hk-2.sharecentre.online:443
+      - 美国 015
+      - 美国 010
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -112,99 +112,100 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 新加坡 010
-      - 美国 096
-      - v2rayfree.eu.org - 加拿大多伦多Oracle云计算数据中心 52
-      - 爱尔兰 001
-      - 美国 051
-      - 美国 134
-      - 印度 001
-      - 德国 004
-      - 美国 072
-      - 日本 003
-      - 美国 101
-      - 韩国 003
-      - v2rayfree.eu.org - 澳大利亚Cranbourne Secondary College 5
-      - 美国 079
-      - 美国 151
-      - 美国 006
-      - v2rayfree.eu.org - 美国RF Engineering 65
-      - v2rayfree.eu.org - 英国社会保险安全部 37
+      - 新加坡_youtube_lsj开车_110
+      - US-173.230.152.185-220
+      - 美国_youtube_lsj开车_112
+      - US-129.159.39.30-235
+      - 美国 016
+      - 美国_youtube_lsj开车_90
+      - 美国-加利福尼亚-0-v2ray-129.152.13.117:11691
+      - 法国_youtube_lsj开车_24
+      - 美国 011
+      - 中国_youtube_lsj开车_113
+      - _US_美国_1_4@0
+      - _FR_法国_2@14
+      - 美国 014
+      - 加拿大_youtube_lsj开车_32
+      - 印度_youtube_lsj开车_16
+      - 美国-0-0-v2ray-hk-2.sharecentre.online:443
+      - 美国 015
+      - 美国 010
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - 美国-0-0-v2ray-hk-2.sharecentre.online:443
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 新加坡 010
-      - 美国 096
-      - v2rayfree.eu.org - 加拿大多伦多Oracle云计算数据中心 52
-      - 爱尔兰 001
-      - 美国 051
-      - 美国 134
-      - 印度 001
-      - 德国 004
-      - 美国 072
-      - 日本 003
-      - 美国 101
-      - 韩国 003
-      - v2rayfree.eu.org - 澳大利亚Cranbourne Secondary College 5
-      - 美国 079
-      - 美国 151
-      - 美国 006
-      - v2rayfree.eu.org - 美国RF Engineering 65
-      - v2rayfree.eu.org - 英国社会保险安全部 37
+      - 新加坡_youtube_lsj开车_110
+      - US-173.230.152.185-220
+      - 美国_youtube_lsj开车_112
+      - US-129.159.39.30-235
+      - 美国 016
+      - 美国_youtube_lsj开车_90
+      - 美国-加利福尼亚-0-v2ray-129.152.13.117:11691
+      - 法国_youtube_lsj开车_24
+      - 美国 011
+      - 中国_youtube_lsj开车_113
+      - _US_美国_1_4@0
+      - _FR_法国_2@14
+      - 美国 014
+      - 加拿大_youtube_lsj开车_32
+      - 印度_youtube_lsj开车_16
+      - 美国-0-0-v2ray-hk-2.sharecentre.online:443
+      - 美国 015
+      - 美国 010
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 新加坡 010
-      - 美国 096
-      - v2rayfree.eu.org - 加拿大多伦多Oracle云计算数据中心 52
-      - 爱尔兰 001
-      - 美国 051
-      - 美国 134
-      - 印度 001
-      - 德国 004
-      - 美国 072
-      - 日本 003
-      - 美国 101
-      - 韩国 003
-      - v2rayfree.eu.org - 澳大利亚Cranbourne Secondary College 5
-      - 美国 079
-      - 美国 151
-      - 美国 006
-      - v2rayfree.eu.org - 美国RF Engineering 65
-      - v2rayfree.eu.org - 英国社会保险安全部 37
+      - 新加坡_youtube_lsj开车_110
+      - US-173.230.152.185-220
+      - 美国_youtube_lsj开车_112
+      - US-129.159.39.30-235
+      - 美国 016
+      - 美国_youtube_lsj开车_90
+      - 美国-加利福尼亚-0-v2ray-129.152.13.117:11691
+      - 法国_youtube_lsj开车_24
+      - 美国 011
+      - 中国_youtube_lsj开车_113
+      - _US_美国_1_4@0
+      - _FR_法国_2@14
+      - 美国 014
+      - 加拿大_youtube_lsj开车_32
+      - 印度_youtube_lsj开车_16
+      - 美国-0-0-v2ray-hk-2.sharecentre.online:443
+      - 美国 015
+      - 美国 010
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 新加坡 010
-      - 美国 096
-      - v2rayfree.eu.org - 加拿大多伦多Oracle云计算数据中心 52
-      - 爱尔兰 001
-      - 美国 051
-      - 美国 134
-      - 印度 001
-      - 德国 004
-      - 美国 072
-      - 日本 003
-      - 美国 101
-      - 韩国 003
-      - v2rayfree.eu.org - 澳大利亚Cranbourne Secondary College 5
-      - 美国 079
-      - 美国 151
-      - 美国 006
-      - v2rayfree.eu.org - 美国RF Engineering 65
-      - v2rayfree.eu.org - 英国社会保险安全部 37
+      - 新加坡_youtube_lsj开车_110
+      - US-173.230.152.185-220
+      - 美国_youtube_lsj开车_112
+      - US-129.159.39.30-235
+      - 美国 016
+      - 美国_youtube_lsj开车_90
+      - 美国-加利福尼亚-0-v2ray-129.152.13.117:11691
+      - 法国_youtube_lsj开车_24
+      - 美国 011
+      - 中国_youtube_lsj开车_113
+      - _US_美国_1_4@0
+      - _FR_法国_2@14
+      - 美国 014
+      - 加拿大_youtube_lsj开车_32
+      - 印度_youtube_lsj开车_16
+      - 美国-0-0-v2ray-hk-2.sharecentre.online:443
+      - 美国 015
+      - 美国 010
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -220,24 +221,24 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 新加坡 010
-      - 美国 096
-      - v2rayfree.eu.org - 加拿大多伦多Oracle云计算数据中心 52
-      - 爱尔兰 001
-      - 美国 051
-      - 美国 134
-      - 印度 001
-      - 德国 004
-      - 美国 072
-      - 日本 003
-      - 美国 101
-      - 韩国 003
-      - v2rayfree.eu.org - 澳大利亚Cranbourne Secondary College 5
-      - 美国 079
-      - 美国 151
-      - 美国 006
-      - v2rayfree.eu.org - 美国RF Engineering 65
-      - v2rayfree.eu.org - 英国社会保险安全部 37
+      - 新加坡_youtube_lsj开车_110
+      - US-173.230.152.185-220
+      - 美国_youtube_lsj开车_112
+      - US-129.159.39.30-235
+      - 美国 016
+      - 美国_youtube_lsj开车_90
+      - 美国-加利福尼亚-0-v2ray-129.152.13.117:11691
+      - 法国_youtube_lsj开车_24
+      - 美国 011
+      - 中国_youtube_lsj开车_113
+      - _US_美国_1_4@0
+      - _FR_法国_2@14
+      - 美国 014
+      - 加拿大_youtube_lsj开车_32
+      - 印度_youtube_lsj开车_16
+      - 美国-0-0-v2ray-hk-2.sharecentre.online:443
+      - 美国 015
+      - 美国 010
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
