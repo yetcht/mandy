@@ -38,7 +38,7 @@ proxy-providers:
 #      interval: 300      
       
 proxy-groups:
-  - name: PROXY
+  - name: 🚀 节点选择
     type: url-test
     interval: 3600 
     url: http://www.gstatic.com/generate_204
@@ -147,8 +147,8 @@ rules:
   - DOMAIN,yacd.haishan.me,DIRECT
   - RULE-SET,private,DIRECT
   - RULE-SET,reject,REJECT
-  - RULE-SET,tld-not-cn,PROXY
-  - RULE-SET,gfw,PROXY
-  - RULE-SET,greatfire,PROXY
-  - RULE-SET,telegramcidr,PROXY
+  - RULE-SET,tld-not-cn,🚀 节点选择
+  - RULE-SET,gfw,🚀 节点选择
+  - RULE-SET,greatfire,🚀 节点选择
+  - RULE-SET,telegramcidr,🚀 节点选择
   - MATCH,DIRECT
