@@ -12,7 +12,7 @@ proxy-providers:
   yetcht:
     type: http
     path: ./profiles/proxies/yetcht.yaml
-    url: https://raw.fastgit.org/yetcht/mandy/main/yetcht.yaml
+    url: https://ghproxy.com/https://raw.githubusercontent.com/yetcht/mandy/main/yetcht.yaml
     interval: 3600 
     health-check:
       enable: true
