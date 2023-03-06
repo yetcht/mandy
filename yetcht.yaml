@@ -5,191 +5,99 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: _US_美国_6_22@30, server: 146.190.82.241, port: 443, type: vmess, uuid: ee76cecf-1219-42be-ae3f-6b8077e4cacc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 146.190.82.241}, udp: true}
-  - {name: _CN_中国->🇭🇰_HK_香港_1_9@28, server: 36.156.102.166, port: 10001, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 瑞士 006, server: yda6.6bbt.tk, port: 443, type: vmess, uuid: 6e41c22a-2794-4504-a05a-4f8def6d0bf5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /6bbt.tk, ws-headers: {Host: 6bbt.tk}, udp: true}
-  - {name: 瑞士 005, server: yd6.6bbt.tk, port: 443, type: vmess, uuid: 6e41c22a-2794-4504-a05a-4f8def6d0bf5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /6bbt.tk, ws-headers: {Host: 6bbt.tk}, udp: true}
-  - {name: "@SSRSUB-V34-付费推荐:suo.yt/ssrsub", server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: kh.sharecentre.online}, udp: true}
-  - {name: "@SSRSUB-V31-付费推荐:suo.yt/ssrsub", server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: ca1.sharecentre.online}, udp: true}
-  - {name: 中国-广东-0-v2ray-v2hk-ws-tls.ytv2line.top:48203, server: v2hk-ws-tls.ytv2line.top, port: 48203, type: vmess, uuid: 8d5e7a95-a0c5-444f-b9d7-e680eed2ee3a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cpyhyfd3, ws-headers: {Host: v2hk-ws-tls.ytv2line.top}, udp: true}
-  - {name: "@SSRSUB-V29-付费推荐:suo.yt/ssrsub", server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: buyvm-ny.sharecentre.online}, udp: true}
-  - {name: 俄罗斯 003, server: insaneguo2333.top, port: 443, type: trojan, password: 1d0a80ca-0f96-4016-ac51-c284dedd28a1, sni: insaneguo2333.top, skip-cert-verify: true, udp: true}
-  - {name: _US_美国_4_10@20, server: 173.249.199.27, port: 443, type: vmess, uuid: e5543efd-5400-3760-9bb6-02767728e888, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /video, ws-headers: {Host: 173.249.199.27}, udp: true}
-  - {name: RELAY-172.67.159.154-136, server: us.octo789.com, port: 443, type: vmess, uuid: 9c0558be-18fa-4c57-f993-5fd56e043058, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /york618, ws-headers: {Host: us.octo789.com}, udp: true}
-  - {name: _US_美国_1_17@0, server: USG.fljsm.com, port: 443, type: vmess, uuid: e5543efd-5400-3760-9bb6-02767728e888, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /video, ws-headers: {Host: USG.fljsm.com}, udp: true}
-  - {name: _SG_新加坡_1_5@20, server: vsg1.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /chat, ws-headers: {Host: vsg1.0bad.com}, udp: true}
-  - {name: 荷兰 004, server: sra2.6bbt.tk, port: 443, type: vmess, uuid: 6e41c22a-2794-4504-a05a-4f8def6d0bf5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /6bbt.tk, ws-headers: {Host: tms.dingtalk.com}, udp: true}
-  - {name: 伯利兹【付费推荐：https://v1.mk/vip】58, server: 203.30.188.121, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /AUIKN8AU, ws-headers: {Host: oplg1.cfcdn2.xyz}, udp: true}
-  - {name: 美国【付费推荐：https://v1.mk/vip】87, server: 172.67.145.166, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /AUIKN8AU, ws-headers: {Host: oplg1.cfcdn2.xyz}, udp: true}
-  - {name: 美国 024, server: 144.34.175.46, port: 80, type: vmess, uuid: 751192f4-437e-4ea9-f34f-4f0252509267, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 144.34.175.46}, udp: true}
-  - {name: 美国 053, server: jnda2.6bbt.tk, port: 443, type: vmess, uuid: 6e41c22a-2794-4504-a05a-4f8def6d0bf5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /6bbt.tk, ws-headers: {Host: 6bbt.tk}, udp: true}
-  - {name: 美国 055, server: jnda6.6bbt.tk, port: 443, type: vmess, uuid: 6e41c22a-2794-4504-a05a-4f8def6d0bf5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /6bbt.tk, ws-headers: {Host: 6bbt.tk}, udp: true}
-  - {name: 伯利兹【付费推荐：https://v1.mk/vip】252, server: 203.30.191.8, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /AUIKN8AU, ws-headers: {Host: oplg1.cfcdn2.xyz}, udp: true}
-  - {name: 瑞士-0-0-v2ray-yda6.6bbt.tk:443, server: yda6.6bbt.tk, port: 443, type: vmess, uuid: 6e41c22a-2794-4504-a05a-4f8def6d0bf5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /6bbt.tk, ws-headers: {Host: yda6.6bbt.tk}, udp: true}
-  - {name: 美国-0-0-v2ray-ap.utopub.com:443, server: ap.utopub.com, port: 443, type: vmess, uuid: c5dbcea4-b22b-44fa-9d33-65f90659ce97, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /c5dbcea4-b22b-44fa-9d33-65f90659ce97, ws-headers: {Host: ap.utopub.com}, udp: true}
-  - {name: _AU_澳大利亚_1@36, server: vau1.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /chat, ws-headers: {Host: vau1.0bad.com}, udp: true}
-  - {name: 伯利兹【付费推荐：https://v1.mk/vip】24, server: 203.30.191.7, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /AUIKN8AU, ws-headers: {Host: oplg1.cfcdn2.xyz}, udp: true}
-  - {name: 亚美尼亚【付费推荐：https://v1.mk/vip】335, server: 185.162.228.110, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /AUIKN8AU, ws-headers: {Host: oplg1.cfcdn2.xyz}, udp: true}
-  - {name: 伯利兹【付费推荐：https://v1.mk/vip】107, server: 203.30.191.10, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /AUIKN8AU, ws-headers: {Host: oplg1.cfcdn2.xyz}, udp: true}
-  - {name: 伯利兹【付费推荐：https://v1.mk/vip】28, server: 203.30.191.3, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /AUIKN8AU, ws-headers: {Host: oplg1.cfcdn2.xyz}, udp: true}
-  - {name: 挪威 001, server: fga2.6bbt.tk, port: 443, type: vmess, uuid: 6e41c22a-2794-4504-a05a-4f8def6d0bf5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /6bbt.tk, ws-headers: {Host: 6bbt.tk}, udp: true}
-  - {name: 美国 052, server: jnda4.6bbt.tk, port: 443, type: vmess, uuid: 6e41c22a-2794-4504-a05a-4f8def6d0bf5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /6bbt.tk, ws-headers: {Host: 6bbt.tk}, udp: true}
-  - {name: 美国【付费推荐：https://v1.mk/vip】150, server: lg10.cfcdn1.xyz, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /A2DJOPFT, ws-headers: {Host: lg10.cfcdn1.xyz}, udp: true}
-  - {name: RELAY-203.30.190.192-144, server: 203.30.190.192, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /A2DJOPFT, ws-headers: {Host: lg10.cfcdn1.xyz}, udp: true}
-  - {name: _BZ_伯利兹->🇫🇷_FR_法国, server: 203.30.188.190, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /A2DJOPFT, ws-headers: {Host: lg10.cfcdn1.xyz}, udp: true}
-  - {name: US-192.203.230.137-224, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 769c2da7-add3-42e8-a03c-07be9fcf483c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: "/yfjc/us3?ed=2048", ws-headers: {Host: us3.yfjc.sbs}, udp: true}
-  - {name: 伯利兹【付费推荐：https://v1.mk/vip】63, server: 203.30.189.191, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /A2DJOPFT, ws-headers: {Host: lg10.cfcdn1.xyz}, udp: true}
-  - {name: RELAY-203.24.108.10-218, server: 203.24.108.10, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /A2DJOPFT, ws-headers: {Host: lg10.cfcdn1.xyz}, udp: true}
-  - {name: 加拿大【付费推荐：https://v1.mk/vip】192, server: 23.227.38.40, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /A2DJOPFT, ws-headers: {Host: lg10.cfcdn1.xyz}, udp: true}
-  - {name: 美国 071, server: 172.67.199.200, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /A2DJOPFT, ws-headers: {Host: lg10.cfcdn1.xyz}, udp: true}
-  - {name: 美国 026, server: mg6.6bbt.tk, port: 443, type: vmess, uuid: 6e41c22a-2794-4504-a05a-4f8def6d0bf5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /6bbt.tk, ws-headers: {Host: 6bbt.tk}, udp: true}
-  - {name: 英国 006, server: 185.162.228.230, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /A2DJOPFT, ws-headers: {Host: lg10.cfcdn1.xyz}, udp: true}
-  - {name: 瑞士-0-0-v2ray-yd6.6bbt.tk:443, server: yd6.6bbt.tk, port: 443, type: vmess, uuid: 6e41c22a-2794-4504-a05a-4f8def6d0bf5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /6bbt.tk, ws-headers: {Host: yd6.6bbt.tk}, udp: true}
-  - {name: 美国【付费推荐：https://v1.mk/vip】96, server: kh.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: kh.sharecentre.online}, udp: true}
-  - {name: 美国【付费推荐：https://v1.mk/vip】203, server: us-dp2.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: us-dp2.sharecentre.online}, udp: true}
+  - {name: 澳大利亚 006, server: awshk4-tg-data.amazonwebservicess.com, port: 443, type: trojan, password: 8f6cd16c-2028-43a4-a713-46c41b8ecf7e, sni: awshk4-tg-data.amazonwebservicess.com, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国_3_1@23, server: 106.55.234.95, port: 31372, type: vmess, uuid: 374d3519-455c-45b8-e3b1-0e2e9fcf4411, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国 079, server: awshk12-tg-data.amazonwebservicess.com, port: 443, type: trojan, password: 8f6cd16c-2028-43a4-a713-46c41b8ecf7e, sni: awshk12-tg-data.amazonwebservicess.com, skip-cert-verify: true, udp: true}
+  - {name: 美国 076, server: awshk1-tg-data.amazonwebservicess.com, port: 443, type: trojan, password: 8f6cd16c-2028-43a4-a713-46c41b8ecf7e, sni: awshk1-tg-data.amazonwebservicess.com, skip-cert-verify: true, udp: true}
+  - {name: 美国 078, server: awshk5-tg-data.amazonwebservicess.com, port: 443, type: trojan, password: 8f6cd16c-2028-43a4-a713-46c41b8ecf7e, sni: awshk5-tg-data.amazonwebservicess.com, skip-cert-verify: true, udp: true}
+  - {name: 新加坡-0-0-ss-18.141.181.186:443, server: 18.141.181.186, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 美国 075, server: awshk2-tg-data.amazonwebservicess.com, port: 443, type: trojan, password: 8f6cd16c-2028-43a4-a713-46c41b8ecf7e, sni: awshk2-tg-data.amazonwebservicess.com, skip-cert-verify: true, udp: true}
+  - {name: US-192.203.230.66-260, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 27509613-bbd5-403a-868c-8022d36aa565, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: "/pq/fr1?ed=2048", ws-headers: {Host: fr1.pqjc.buzz}, udp: true}
+  - {name: 美国 077, server: awshk13-tg-data.amazonwebservicess.com, port: 443, type: trojan, password: 8f6cd16c-2028-43a4-a713-46c41b8ecf7e, sni: awshk13-tg-data.amazonwebservicess.com, skip-cert-verify: true, udp: true}
+  - {name: RELAY-172.64.153.155-016, server: 172.64.153.155, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /dongtaiwang.com, ws-headers: {Host: clash6.ssr-free.xyz}, udp: true}
+  - {name: 美国 044, server: v2kr1.cosdayan.top, port: 443, type: vmess, uuid: 6440f9c6-9514-4fb5-f281-3aad1d1418be, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /vmess, ws-headers: {Host: v2kr1.cosdayan.top}, udp: true}
+  - {name: 美国 070, server: 15.204.210.176, port: 80, type: trojan, password: c0fde6ac-a07c-4f60-84ae-e7ed4da78a6f, skip-cert-verify: true, udp: true}
+  - {name: CN-36.156.102.174-139, server: 31.kccic2pa.xyz, port: 50031, type: vmess, uuid: 834ed4d6-b0c5-4b4b-96a4-b3056a3dc441, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国 080, server: awshk3-tg-data.amazonwebservicess.com, port: 443, type: trojan, password: 8f6cd16c-2028-43a4-a713-46c41b8ecf7e, sni: awshk3-tg-data.amazonwebservicess.com, skip-cert-verify: true, udp: true}
+  - {name: RELAY-162.159.246.44-247, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: ca-nnc.ilovescp.com}, udp: true}
+  - {name: CN-120.232.56.15-152, server: 42.kccic2pa.xyz, port: 50042, type: vmess, uuid: 834ed4d6-b0c5-4b4b-96a4-b3056a3dc441, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国 038, server: cdn.xia.me, port: 443, type: vmess, uuid: 68fe8d27-cbc8-4e72-90b7-70d3bb69dfd3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /api, ws-headers: {Host: us12.cachexy.ga}, udp: true}
+  - {name: 美国 021, server: cf.bakapie.cf, port: 2096, type: vmess, uuid: 72fd33d5-5c1a-4193-96c6-665fc20b71c1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: c7d5ea85.8200860.xyz}, udp: true}
+  - {name: RELAY-172.64.150.150-136, server: 172.64.150.150, port: 443, type: vmess, uuid: 142fcf72-fd39-4cd7-cbf8-064014c8b4e6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: jp06.cctvvip.ml}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _US_美国_6_22@30
-      - _CN_中国->🇭🇰_HK_香港_1_9@28
-      - 瑞士 006
-      - 瑞士 005
-      - "@SSRSUB-V34-付费推荐:suo.yt/ssrsub"
-      - "@SSRSUB-V31-付费推荐:suo.yt/ssrsub"
-      - 中国-广东-0-v2ray-v2hk-ws-tls.ytv2line.top:48203
-      - "@SSRSUB-V29-付费推荐:suo.yt/ssrsub"
-      - 俄罗斯 003
-      - _US_美国_4_10@20
-      - RELAY-172.67.159.154-136
-      - _US_美国_1_17@0
-      - _SG_新加坡_1_5@20
-      - 荷兰 004
-      - 伯利兹【付费推荐：https://v1.mk/vip】58
-      - 美国【付费推荐：https://v1.mk/vip】87
-      - 美国 024
-      - 美国 053
-      - 美国 055
-      - 伯利兹【付费推荐：https://v1.mk/vip】252
-      - 瑞士-0-0-v2ray-yda6.6bbt.tk:443
-      - 美国-0-0-v2ray-ap.utopub.com:443
-      - _AU_澳大利亚_1@36
-      - 伯利兹【付费推荐：https://v1.mk/vip】24
-      - 亚美尼亚【付费推荐：https://v1.mk/vip】335
-      - 伯利兹【付费推荐：https://v1.mk/vip】107
-      - 伯利兹【付费推荐：https://v1.mk/vip】28
-      - 挪威 001
-      - 美国 052
-      - 美国【付费推荐：https://v1.mk/vip】150
-      - RELAY-203.30.190.192-144
-      - _BZ_伯利兹->🇫🇷_FR_法国
-      - US-192.203.230.137-224
-      - 伯利兹【付费推荐：https://v1.mk/vip】63
-      - RELAY-203.24.108.10-218
-      - 加拿大【付费推荐：https://v1.mk/vip】192
-      - 美国 071
-      - 美国 026
-      - 英国 006
-      - 瑞士-0-0-v2ray-yd6.6bbt.tk:443
-      - 美国【付费推荐：https://v1.mk/vip】96
-      - 美国【付费推荐：https://v1.mk/vip】203
+      - 澳大利亚 006
+      - _CN_中国_3_1@23
+      - 美国 079
+      - 美国 076
+      - 美国 078
+      - 新加坡-0-0-ss-18.141.181.186:443
+      - 美国 075
+      - US-192.203.230.66-260
+      - 美国 077
+      - RELAY-172.64.153.155-016
+      - 美国 044
+      - 美国 070
+      - CN-36.156.102.174-139
+      - 美国 080
+      - RELAY-162.159.246.44-247
+      - CN-120.232.56.15-152
+      - 美国 038
+      - 美国 021
+      - RELAY-172.64.150.150-136
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - _US_美国_6_22@30
-      - _CN_中国->🇭🇰_HK_香港_1_9@28
-      - 瑞士 006
-      - 瑞士 005
-      - "@SSRSUB-V34-付费推荐:suo.yt/ssrsub"
-      - "@SSRSUB-V31-付费推荐:suo.yt/ssrsub"
-      - 中国-广东-0-v2ray-v2hk-ws-tls.ytv2line.top:48203
-      - "@SSRSUB-V29-付费推荐:suo.yt/ssrsub"
-      - 俄罗斯 003
-      - _US_美国_4_10@20
-      - RELAY-172.67.159.154-136
-      - _US_美国_1_17@0
-      - _SG_新加坡_1_5@20
-      - 荷兰 004
-      - 伯利兹【付费推荐：https://v1.mk/vip】58
-      - 美国【付费推荐：https://v1.mk/vip】87
-      - 美国 024
-      - 美国 053
-      - 美国 055
-      - 伯利兹【付费推荐：https://v1.mk/vip】252
-      - 瑞士-0-0-v2ray-yda6.6bbt.tk:443
-      - 美国-0-0-v2ray-ap.utopub.com:443
-      - _AU_澳大利亚_1@36
-      - 伯利兹【付费推荐：https://v1.mk/vip】24
-      - 亚美尼亚【付费推荐：https://v1.mk/vip】335
-      - 伯利兹【付费推荐：https://v1.mk/vip】107
-      - 伯利兹【付费推荐：https://v1.mk/vip】28
-      - 挪威 001
-      - 美国 052
-      - 美国【付费推荐：https://v1.mk/vip】150
-      - RELAY-203.30.190.192-144
-      - _BZ_伯利兹->🇫🇷_FR_法国
-      - US-192.203.230.137-224
-      - 伯利兹【付费推荐：https://v1.mk/vip】63
-      - RELAY-203.24.108.10-218
-      - 加拿大【付费推荐：https://v1.mk/vip】192
-      - 美国 071
-      - 美国 026
-      - 英国 006
-      - 瑞士-0-0-v2ray-yd6.6bbt.tk:443
-      - 美国【付费推荐：https://v1.mk/vip】96
-      - 美国【付费推荐：https://v1.mk/vip】203
+      - 澳大利亚 006
+      - _CN_中国_3_1@23
+      - 美国 079
+      - 美国 076
+      - 美国 078
+      - 新加坡-0-0-ss-18.141.181.186:443
+      - 美国 075
+      - US-192.203.230.66-260
+      - 美国 077
+      - RELAY-172.64.153.155-016
+      - 美国 044
+      - 美国 070
+      - CN-36.156.102.174-139
+      - 美国 080
+      - RELAY-162.159.246.44-247
+      - CN-120.232.56.15-152
+      - 美国 038
+      - 美国 021
+      - RELAY-172.64.150.150-136
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _US_美国_6_22@30
-      - _CN_中国->🇭🇰_HK_香港_1_9@28
-      - 瑞士 006
-      - 瑞士 005
-      - "@SSRSUB-V34-付费推荐:suo.yt/ssrsub"
-      - "@SSRSUB-V31-付费推荐:suo.yt/ssrsub"
-      - 中国-广东-0-v2ray-v2hk-ws-tls.ytv2line.top:48203
-      - "@SSRSUB-V29-付费推荐:suo.yt/ssrsub"
-      - 俄罗斯 003
-      - _US_美国_4_10@20
-      - RELAY-172.67.159.154-136
-      - _US_美国_1_17@0
-      - _SG_新加坡_1_5@20
-      - 荷兰 004
-      - 伯利兹【付费推荐：https://v1.mk/vip】58
-      - 美国【付费推荐：https://v1.mk/vip】87
-      - 美国 024
-      - 美国 053
-      - 美国 055
-      - 伯利兹【付费推荐：https://v1.mk/vip】252
-      - 瑞士-0-0-v2ray-yda6.6bbt.tk:443
-      - 美国-0-0-v2ray-ap.utopub.com:443
-      - _AU_澳大利亚_1@36
-      - 伯利兹【付费推荐：https://v1.mk/vip】24
-      - 亚美尼亚【付费推荐：https://v1.mk/vip】335
-      - 伯利兹【付费推荐：https://v1.mk/vip】107
-      - 伯利兹【付费推荐：https://v1.mk/vip】28
-      - 挪威 001
-      - 美国 052
-      - 美国【付费推荐：https://v1.mk/vip】150
-      - RELAY-203.30.190.192-144
-      - _BZ_伯利兹->🇫🇷_FR_法国
-      - US-192.203.230.137-224
-      - 伯利兹【付费推荐：https://v1.mk/vip】63
-      - RELAY-203.24.108.10-218
-      - 加拿大【付费推荐：https://v1.mk/vip】192
-      - 美国 071
-      - 美国 026
-      - 英国 006
-      - 瑞士-0-0-v2ray-yd6.6bbt.tk:443
-      - 美国【付费推荐：https://v1.mk/vip】96
-      - 美国【付费推荐：https://v1.mk/vip】203
+      - 澳大利亚 006
+      - _CN_中国_3_1@23
+      - 美国 079
+      - 美国 076
+      - 美国 078
+      - 新加坡-0-0-ss-18.141.181.186:443
+      - 美国 075
+      - US-192.203.230.66-260
+      - 美国 077
+      - RELAY-172.64.153.155-016
+      - 美国 044
+      - 美国 070
+      - CN-36.156.102.174-139
+      - 美国 080
+      - RELAY-162.159.246.44-247
+      - CN-120.232.56.15-152
+      - 美国 038
+      - 美国 021
+      - RELAY-172.64.150.150-136
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -208,197 +116,103 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _US_美国_6_22@30
-      - _CN_中国->🇭🇰_HK_香港_1_9@28
-      - 瑞士 006
-      - 瑞士 005
-      - "@SSRSUB-V34-付费推荐:suo.yt/ssrsub"
-      - "@SSRSUB-V31-付费推荐:suo.yt/ssrsub"
-      - 中国-广东-0-v2ray-v2hk-ws-tls.ytv2line.top:48203
-      - "@SSRSUB-V29-付费推荐:suo.yt/ssrsub"
-      - 俄罗斯 003
-      - _US_美国_4_10@20
-      - RELAY-172.67.159.154-136
-      - _US_美国_1_17@0
-      - _SG_新加坡_1_5@20
-      - 荷兰 004
-      - 伯利兹【付费推荐：https://v1.mk/vip】58
-      - 美国【付费推荐：https://v1.mk/vip】87
-      - 美国 024
-      - 美国 053
-      - 美国 055
-      - 伯利兹【付费推荐：https://v1.mk/vip】252
-      - 瑞士-0-0-v2ray-yda6.6bbt.tk:443
-      - 美国-0-0-v2ray-ap.utopub.com:443
-      - _AU_澳大利亚_1@36
-      - 伯利兹【付费推荐：https://v1.mk/vip】24
-      - 亚美尼亚【付费推荐：https://v1.mk/vip】335
-      - 伯利兹【付费推荐：https://v1.mk/vip】107
-      - 伯利兹【付费推荐：https://v1.mk/vip】28
-      - 挪威 001
-      - 美国 052
-      - 美国【付费推荐：https://v1.mk/vip】150
-      - RELAY-203.30.190.192-144
-      - _BZ_伯利兹->🇫🇷_FR_法国
-      - US-192.203.230.137-224
-      - 伯利兹【付费推荐：https://v1.mk/vip】63
-      - RELAY-203.24.108.10-218
-      - 加拿大【付费推荐：https://v1.mk/vip】192
-      - 美国 071
-      - 美国 026
-      - 英国 006
-      - 瑞士-0-0-v2ray-yd6.6bbt.tk:443
-      - 美国【付费推荐：https://v1.mk/vip】96
-      - 美国【付费推荐：https://v1.mk/vip】203
+      - 澳大利亚 006
+      - _CN_中国_3_1@23
+      - 美国 079
+      - 美国 076
+      - 美国 078
+      - 新加坡-0-0-ss-18.141.181.186:443
+      - 美国 075
+      - US-192.203.230.66-260
+      - 美国 077
+      - RELAY-172.64.153.155-016
+      - 美国 044
+      - 美国 070
+      - CN-36.156.102.174-139
+      - 美国 080
+      - RELAY-162.159.246.44-247
+      - CN-120.232.56.15-152
+      - 美国 038
+      - 美国 021
+      - RELAY-172.64.150.150-136
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - _CN_中国->🇭🇰_HK_香港_1_9@28
-      - 中国-广东-0-v2ray-v2hk-ws-tls.ytv2line.top:48203
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - _US_美国_6_22@30
-      - _CN_中国->🇭🇰_HK_香港_1_9@28
-      - 瑞士 006
-      - 瑞士 005
-      - "@SSRSUB-V34-付费推荐:suo.yt/ssrsub"
-      - "@SSRSUB-V31-付费推荐:suo.yt/ssrsub"
-      - 中国-广东-0-v2ray-v2hk-ws-tls.ytv2line.top:48203
-      - "@SSRSUB-V29-付费推荐:suo.yt/ssrsub"
-      - 俄罗斯 003
-      - _US_美国_4_10@20
-      - RELAY-172.67.159.154-136
-      - _US_美国_1_17@0
-      - _SG_新加坡_1_5@20
-      - 荷兰 004
-      - 伯利兹【付费推荐：https://v1.mk/vip】58
-      - 美国【付费推荐：https://v1.mk/vip】87
-      - 美国 024
-      - 美国 053
-      - 美国 055
-      - 伯利兹【付费推荐：https://v1.mk/vip】252
-      - 瑞士-0-0-v2ray-yda6.6bbt.tk:443
-      - 美国-0-0-v2ray-ap.utopub.com:443
-      - _AU_澳大利亚_1@36
-      - 伯利兹【付费推荐：https://v1.mk/vip】24
-      - 亚美尼亚【付费推荐：https://v1.mk/vip】335
-      - 伯利兹【付费推荐：https://v1.mk/vip】107
-      - 伯利兹【付费推荐：https://v1.mk/vip】28
-      - 挪威 001
-      - 美国 052
-      - 美国【付费推荐：https://v1.mk/vip】150
-      - RELAY-203.30.190.192-144
-      - _BZ_伯利兹->🇫🇷_FR_法国
-      - US-192.203.230.137-224
-      - 伯利兹【付费推荐：https://v1.mk/vip】63
-      - RELAY-203.24.108.10-218
-      - 加拿大【付费推荐：https://v1.mk/vip】192
-      - 美国 071
-      - 美国 026
-      - 英国 006
-      - 瑞士-0-0-v2ray-yd6.6bbt.tk:443
-      - 美国【付费推荐：https://v1.mk/vip】96
-      - 美国【付费推荐：https://v1.mk/vip】203
+      - 澳大利亚 006
+      - _CN_中国_3_1@23
+      - 美国 079
+      - 美国 076
+      - 美国 078
+      - 新加坡-0-0-ss-18.141.181.186:443
+      - 美国 075
+      - US-192.203.230.66-260
+      - 美国 077
+      - RELAY-172.64.153.155-016
+      - 美国 044
+      - 美国 070
+      - CN-36.156.102.174-139
+      - 美国 080
+      - RELAY-162.159.246.44-247
+      - CN-120.232.56.15-152
+      - 美国 038
+      - 美国 021
+      - RELAY-172.64.150.150-136
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - _US_美国_6_22@30
-      - _CN_中国->🇭🇰_HK_香港_1_9@28
-      - 瑞士 006
-      - 瑞士 005
-      - "@SSRSUB-V34-付费推荐:suo.yt/ssrsub"
-      - "@SSRSUB-V31-付费推荐:suo.yt/ssrsub"
-      - 中国-广东-0-v2ray-v2hk-ws-tls.ytv2line.top:48203
-      - "@SSRSUB-V29-付费推荐:suo.yt/ssrsub"
-      - 俄罗斯 003
-      - _US_美国_4_10@20
-      - RELAY-172.67.159.154-136
-      - _US_美国_1_17@0
-      - _SG_新加坡_1_5@20
-      - 荷兰 004
-      - 伯利兹【付费推荐：https://v1.mk/vip】58
-      - 美国【付费推荐：https://v1.mk/vip】87
-      - 美国 024
-      - 美国 053
-      - 美国 055
-      - 伯利兹【付费推荐：https://v1.mk/vip】252
-      - 瑞士-0-0-v2ray-yda6.6bbt.tk:443
-      - 美国-0-0-v2ray-ap.utopub.com:443
-      - _AU_澳大利亚_1@36
-      - 伯利兹【付费推荐：https://v1.mk/vip】24
-      - 亚美尼亚【付费推荐：https://v1.mk/vip】335
-      - 伯利兹【付费推荐：https://v1.mk/vip】107
-      - 伯利兹【付费推荐：https://v1.mk/vip】28
-      - 挪威 001
-      - 美国 052
-      - 美国【付费推荐：https://v1.mk/vip】150
-      - RELAY-203.30.190.192-144
-      - _BZ_伯利兹->🇫🇷_FR_法国
-      - US-192.203.230.137-224
-      - 伯利兹【付费推荐：https://v1.mk/vip】63
-      - RELAY-203.24.108.10-218
-      - 加拿大【付费推荐：https://v1.mk/vip】192
-      - 美国 071
-      - 美国 026
-      - 英国 006
-      - 瑞士-0-0-v2ray-yd6.6bbt.tk:443
-      - 美国【付费推荐：https://v1.mk/vip】96
-      - 美国【付费推荐：https://v1.mk/vip】203
+      - 澳大利亚 006
+      - _CN_中国_3_1@23
+      - 美国 079
+      - 美国 076
+      - 美国 078
+      - 新加坡-0-0-ss-18.141.181.186:443
+      - 美国 075
+      - US-192.203.230.66-260
+      - 美国 077
+      - RELAY-172.64.153.155-016
+      - 美国 044
+      - 美国 070
+      - CN-36.156.102.174-139
+      - 美国 080
+      - RELAY-162.159.246.44-247
+      - CN-120.232.56.15-152
+      - 美国 038
+      - 美国 021
+      - RELAY-172.64.150.150-136
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - _US_美国_6_22@30
-      - _CN_中国->🇭🇰_HK_香港_1_9@28
-      - 瑞士 006
-      - 瑞士 005
-      - "@SSRSUB-V34-付费推荐:suo.yt/ssrsub"
-      - "@SSRSUB-V31-付费推荐:suo.yt/ssrsub"
-      - 中国-广东-0-v2ray-v2hk-ws-tls.ytv2line.top:48203
-      - "@SSRSUB-V29-付费推荐:suo.yt/ssrsub"
-      - 俄罗斯 003
-      - _US_美国_4_10@20
-      - RELAY-172.67.159.154-136
-      - _US_美国_1_17@0
-      - _SG_新加坡_1_5@20
-      - 荷兰 004
-      - 伯利兹【付费推荐：https://v1.mk/vip】58
-      - 美国【付费推荐：https://v1.mk/vip】87
-      - 美国 024
-      - 美国 053
-      - 美国 055
-      - 伯利兹【付费推荐：https://v1.mk/vip】252
-      - 瑞士-0-0-v2ray-yda6.6bbt.tk:443
-      - 美国-0-0-v2ray-ap.utopub.com:443
-      - _AU_澳大利亚_1@36
-      - 伯利兹【付费推荐：https://v1.mk/vip】24
-      - 亚美尼亚【付费推荐：https://v1.mk/vip】335
-      - 伯利兹【付费推荐：https://v1.mk/vip】107
-      - 伯利兹【付费推荐：https://v1.mk/vip】28
-      - 挪威 001
-      - 美国 052
-      - 美国【付费推荐：https://v1.mk/vip】150
-      - RELAY-203.30.190.192-144
-      - _BZ_伯利兹->🇫🇷_FR_法国
-      - US-192.203.230.137-224
-      - 伯利兹【付费推荐：https://v1.mk/vip】63
-      - RELAY-203.24.108.10-218
-      - 加拿大【付费推荐：https://v1.mk/vip】192
-      - 美国 071
-      - 美国 026
-      - 英国 006
-      - 瑞士-0-0-v2ray-yd6.6bbt.tk:443
-      - 美国【付费推荐：https://v1.mk/vip】96
-      - 美国【付费推荐：https://v1.mk/vip】203
+      - 澳大利亚 006
+      - _CN_中国_3_1@23
+      - 美国 079
+      - 美国 076
+      - 美国 078
+      - 新加坡-0-0-ss-18.141.181.186:443
+      - 美国 075
+      - US-192.203.230.66-260
+      - 美国 077
+      - RELAY-172.64.153.155-016
+      - 美国 044
+      - 美国 070
+      - CN-36.156.102.174-139
+      - 美国 080
+      - RELAY-162.159.246.44-247
+      - CN-120.232.56.15-152
+      - 美国 038
+      - 美国 021
+      - RELAY-172.64.150.150-136
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -414,48 +228,25 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - _US_美国_6_22@30
-      - _CN_中国->🇭🇰_HK_香港_1_9@28
-      - 瑞士 006
-      - 瑞士 005
-      - "@SSRSUB-V34-付费推荐:suo.yt/ssrsub"
-      - "@SSRSUB-V31-付费推荐:suo.yt/ssrsub"
-      - 中国-广东-0-v2ray-v2hk-ws-tls.ytv2line.top:48203
-      - "@SSRSUB-V29-付费推荐:suo.yt/ssrsub"
-      - 俄罗斯 003
-      - _US_美国_4_10@20
-      - RELAY-172.67.159.154-136
-      - _US_美国_1_17@0
-      - _SG_新加坡_1_5@20
-      - 荷兰 004
-      - 伯利兹【付费推荐：https://v1.mk/vip】58
-      - 美国【付费推荐：https://v1.mk/vip】87
-      - 美国 024
-      - 美国 053
-      - 美国 055
-      - 伯利兹【付费推荐：https://v1.mk/vip】252
-      - 瑞士-0-0-v2ray-yda6.6bbt.tk:443
-      - 美国-0-0-v2ray-ap.utopub.com:443
-      - _AU_澳大利亚_1@36
-      - 伯利兹【付费推荐：https://v1.mk/vip】24
-      - 亚美尼亚【付费推荐：https://v1.mk/vip】335
-      - 伯利兹【付费推荐：https://v1.mk/vip】107
-      - 伯利兹【付费推荐：https://v1.mk/vip】28
-      - 挪威 001
-      - 美国 052
-      - 美国【付费推荐：https://v1.mk/vip】150
-      - RELAY-203.30.190.192-144
-      - _BZ_伯利兹->🇫🇷_FR_法国
-      - US-192.203.230.137-224
-      - 伯利兹【付费推荐：https://v1.mk/vip】63
-      - RELAY-203.24.108.10-218
-      - 加拿大【付费推荐：https://v1.mk/vip】192
-      - 美国 071
-      - 美国 026
-      - 英国 006
-      - 瑞士-0-0-v2ray-yd6.6bbt.tk:443
-      - 美国【付费推荐：https://v1.mk/vip】96
-      - 美国【付费推荐：https://v1.mk/vip】203
+      - 澳大利亚 006
+      - _CN_中国_3_1@23
+      - 美国 079
+      - 美国 076
+      - 美国 078
+      - 新加坡-0-0-ss-18.141.181.186:443
+      - 美国 075
+      - US-192.203.230.66-260
+      - 美国 077
+      - RELAY-172.64.153.155-016
+      - 美国 044
+      - 美国 070
+      - CN-36.156.102.174-139
+      - 美国 080
+      - RELAY-162.159.246.44-247
+      - CN-120.232.56.15-152
+      - 美国 038
+      - 美国 021
+      - RELAY-172.64.150.150-136
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
