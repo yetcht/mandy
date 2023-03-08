@@ -5,123 +5,127 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: _IN_印度_2_2@34, server: vin1.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /chat, ws-headers: {Host: vin1.0bad.com}, udp: true}
   - {name: _SG_新加坡_1_8@20, server: vsg1.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /chat, ws-headers: {Host: vsg1.0bad.com}, udp: true}
+  - {name: 美国 070, server: downloading.cmhkg.eu.org, port: 443, type: vmess, uuid: dce799bc-372d-4691-a4e4-5998ff85a9ca, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk1.doinb.tk}, udp: true}
+  - {name: _US_美国_9_0@21, server: lv2.sharecentrepro.org, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: lv2.sharecentrepro.org}, udp: true}
+  - {name: US-192.203.230.137-178, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 3855b736-bf24-461f-b5b9-1d3f04484b37, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: "/yfjc/us1?ed=2048", ws-headers: {Host: us1.yfjc.sbs}, udp: true}
   - {name: _US_美国_1_20@0, server: USG.fljsm.com, port: 443, type: vmess, uuid: e5543efd-5400-3760-9bb6-02767728e888, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /video, ws-headers: {Host: USG.fljsm.com}, udp: true}
-  - {name: _US_美国_4_13@20, server: 173.249.199.27, port: 443, type: vmess, uuid: e5543efd-5400-3760-9bb6-02767728e888, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /video, ws-headers: {Host: 173.249.199.27}, udp: true}
-  - {name: JP-13.230.6.197-200, server: jp80.af49c4e4c2ef.sanfen001.pics, port: 80, type: vmess, uuid: dcea7f3e-98ba-4ac8-a294-5092dc381a57, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /zh-cn, ws-headers: {Host: www.baidu.com}, udp: true}
-  - {name: RELAY-162.159.246.44-247, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: ca-nnc.ilovescp.com}, udp: true}
-  - {name: RELAY-172.67.46.53-145, server: 172.67.46.53, port: 443, type: vmess, uuid: 5ce9cb0d-6b12-4dbd-9114-74fd11dc6f35, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: fr.binghe.design}, udp: true}
+  - {name: US-192.203.230.118-164, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 3855b736-bf24-461f-b5b9-1d3f04484b37, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: "/yfjc/us2?ed=2048", ws-headers: {Host: us2.yfjc.sbs}, udp: true}
+  - {name: 美国 048, server: no.aries.ovh, port: 8080, type: vmess, uuid: 88aa4851-2b1e-404c-a453-685f12489f9d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/aries?ed=2048", ws-headers: {Host: awsusa.cloudflare.quest}, udp: true}
   - {name: US-192.203.230.137-181, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 3855b736-bf24-461f-b5b9-1d3f04484b37, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: "/yfjc/nl?ed=2048", ws-headers: {Host: nl.yfjc.sbs}, udp: true}
-  - {name: US-192.203.230.137-184, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 3855b736-bf24-461f-b5b9-1d3f04484b37, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: "/yfjc/nl3?ed=2048", ws-headers: {Host: nl3.yfjc.sbs}, udp: true}
-  - {name: US-192.203.230.138-182, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 3855b736-bf24-461f-b5b9-1d3f04484b37, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: "/yfjc/nl2?ed=2048", ws-headers: {Host: nl2.yfjc.sbs}, udp: true}
-  - {name: 伯利兹【付费推荐：https://v1.mk/vip】66, server: 203.30.188.121, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /AUIKN8AU, ws-headers: {Host: oplg1.cfcdn2.xyz}, udp: true}
-  - {name: 伯利兹【付费推荐：https://v1.mk/vip】72, server: 203.30.191.6, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /AUIKN8AU, ws-headers: {Host: oplg1.cfcdn2.xyz}, udp: true}
-  - {name: 美国 020, server: vuk1.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /chat, ws-headers: {Host: vuk1.0bad.com}, udp: true}
-  - {name: 美国 023, server: no.aries.ovh, port: 2052, type: vmess, uuid: 88aa4851-2b1e-404c-a453-685f12489f9d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/aries?ed=2048", ws-headers: {Host: uk.cloudflare.quest}, udp: true}
-  - {name: 美国 033, server: 172.67.199.34, port: 443, type: vmess, uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /9JZFDTKE, ws-headers: {Host: fr1.trump2023.org}, udp: true}
-  - {name: 美国 038, server: cdn.xia.me, port: 443, type: vmess, uuid: 68fe8d27-cbc8-4e72-90b7-70d3bb69dfd3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /api, ws-headers: {Host: us12.cachexy.ga}, udp: true}
-  - {name: 美国 046, server: 148.59.74.154, port: 443, type: trojan, password: 3855b736-bf24-461f-b5b9-1d3f04484b37, skip-cert-verify: true, udp: true}
-  - {name: 美国 047, server: aws-hk01.aikun.online, port: 7045, type: trojan, password: c9c498df-683b-40b3-a1cb-b574c36f9433, sni: aws-hk01.aikun.online, skip-cert-verify: true, udp: true}
-  - {name: 美国 049, server: s-jp01.aikun.online, port: 10000, type: trojan, password: c9c498df-683b-40b3-a1cb-b574c36f9433, sni: s-jp01.aikun.online, skip-cert-verify: true, udp: true}
-  - {name: 美国 066, server: hk80-2.af49c4e4c2ef.sanfen001.pics, port: 80, type: vmess, uuid: dcea7f3e-98ba-4ac8-a294-5092dc381a57, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /zh-cn/, ws-headers: {Host: www.baidu.com}, udp: true}
-  - {name: 美国【付费推荐：https://v1.mk/vip】114, server: finland2.yj2022.ga, port: 443, type: vmess, uuid: 4b5e4565-322f-4223-a891-78a84f189726, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /yWJGGBHoVpr3DbNuVycP, ws-headers: {Host: finland2.yj2022.ga}, udp: true}
+  - {name: US-192.203.230.118-126, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 27509613-bbd5-403a-868c-8022d36aa565, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: "/pq/fr1?ed=2048", ws-headers: {Host: fr1.pqjc.buzz}, udp: true}
+  - {name: _US_美国_12_0@28, server: 146.190.82.241, port: 443, type: vmess, uuid: ee76cecf-1219-42be-ae3f-6b8077e4cacc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 146.190.82.241}, udp: true}
+  - {name: _US_美国_4_13@20, server: 173.249.199.27, port: 443, type: vmess, uuid: e5543efd-5400-3760-9bb6-02767728e888, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /video, ws-headers: {Host: 173.249.199.27}, udp: true}
+  - {name: CN-106.55.234.95-010, server: 106.55.234.95, port: 31372, type: vmess, uuid: 374d3519-455c-45b8-e3b1-0e2e9fcf4411, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: RELAY-45.85.118.1-134, server: 45.85.118.1, port: 443, type: vmess, uuid: A59E320C-BAC6-45E3-8A27-1518610708D0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /speedtest, ws-headers: {Host: Lille.v2ray.online}, udp: true}
   - {name: 美国【付费推荐：https://v1.mk/vip】174, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 27509613-bbd5-403a-868c-8022d36aa565, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: "/pq/nl1?ed=2048", ws-headers: {Host: nl1.pqjc.buzz}, udp: true}
-  - {name: 美国【付费推荐：https://v1.mk/vip】447, server: 172.67.135.57, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /AUIKN8AU, ws-headers: {Host: oplg1.cfcdn2.xyz}, udp: true}
-  - {name: 美国-德克萨斯-休斯顿-v2ray-34.131.59.57:80, server: 34.131.59.57, port: 80, type: vmess, uuid: e0b3a0fe-a89c-46ad-d291-7d27f8b1c9fe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 34.131.59.57}, udp: true}
-  - {name: 亚美尼亚【付费推荐：https://v1.mk/vip】451, server: 185.162.228.110, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /AUIKN8AU, ws-headers: {Host: oplg1.cfcdn2.xyz}, udp: true}
+  - {name: US-192.203.230.137-184, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 3855b736-bf24-461f-b5b9-1d3f04484b37, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: "/yfjc/nl3?ed=2048", ws-headers: {Host: nl3.yfjc.sbs}, udp: true}
+  - {name: RELAY-203.30.191.19-207, server: 203.30.191.19, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /dongtaiwang.com, ws-headers: {Host: clash6.ssr-free.xyz}, udp: true}
+  - {name: _GB_英国_2_1@8, server: vuk2.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /chat, ws-headers: {Host: vuk2.0bad.com}, udp: true}
+  - {name: 德国【付费推荐：https://v1.mk/vip】163, server: vde1.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /chat, ws-headers: {Host: vde1.0bad.com}, udp: true}
+  - {name: RELAY-104.21.80.120-171, server: fr1.pqjc.buzz, port: 443, type: vmess, uuid: 27509613-bbd5-403a-868c-8022d36aa565, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: "/pq/fr1?ed=2048", ws-headers: {Host: fr1.pqjc.buzz}, udp: true}
+  - {name: 美国-0-0-v2ray-hk80.af49c4e4c2ef.sanfen001.pics:80, server: hk80.af49c4e4c2ef.sanfen001.pics, port: 80, type: vmess, uuid: 3b21ac2f-41be-4f9a-872d-1169250351f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /zh-cn/, ws-headers: {Host: hk80.af49c4e4c2ef.sanfen001.pics}, udp: true}
+  - {name: _IN_印度_2_2@34, server: vin1.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /chat, ws-headers: {Host: vin1.0bad.com}, udp: true}
+  - {name: US_SSRSUB_52, server: 172.64.154.155, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /dongtaiwang.com, ws-headers: {Host: clash6.ssr-free.xyz}, udp: true}
+  - {name: _AU_澳大利亚_0@4, server: vau1.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /chat, ws-headers: {Host: vau1.0bad.com}, udp: true}
+  - {name: RELAY-172.67.199.34-025, server: 172.67.199.34, port: 443, type: vmess, uuid: 8b6dd709-4d4e-4b92-f542-54a676efbfe4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shares, ws-headers: {Host: la.awsbest.com}, udp: true}
+  - {name: 美国【付费推荐：https://v1.mk/vip】6, server: 172.67.199.34, port: 80, type: vmess, uuid: 8b6dd709-4d4e-4b92-f542-54a676efbfe4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /shares, ws-headers: {Host: la.awsbest.com}, udp: true}
+  - {name: RELAY-23.227.38.33-120, server: shopify.com, port: 443, type: vmess, uuid: c2f0e79f-7e81-4f87-a2da-25f8d6263ff9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: "/sbga?ed=2048", ws-headers: {Host: hax-usovz3.misakano.ml}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _IN_印度_2_2@34
       - _SG_新加坡_1_8@20
+      - 美国 070
+      - _US_美国_9_0@21
+      - US-192.203.230.137-178
       - _US_美国_1_20@0
-      - _US_美国_4_13@20
-      - JP-13.230.6.197-200
-      - RELAY-162.159.246.44-247
-      - RELAY-172.67.46.53-145
+      - US-192.203.230.118-164
+      - 美国 048
       - US-192.203.230.137-181
-      - US-192.203.230.137-184
-      - US-192.203.230.138-182
-      - 伯利兹【付费推荐：https://v1.mk/vip】66
-      - 伯利兹【付费推荐：https://v1.mk/vip】72
-      - 美国 020
-      - 美国 023
-      - 美国 033
-      - 美国 038
-      - 美国 046
-      - 美国 047
-      - 美国 049
-      - 美国 066
-      - 美国【付费推荐：https://v1.mk/vip】114
+      - US-192.203.230.118-126
+      - _US_美国_12_0@28
+      - _US_美国_4_13@20
+      - CN-106.55.234.95-010
+      - RELAY-45.85.118.1-134
       - 美国【付费推荐：https://v1.mk/vip】174
-      - 美国【付费推荐：https://v1.mk/vip】447
-      - 美国-德克萨斯-休斯顿-v2ray-34.131.59.57:80
-      - 亚美尼亚【付费推荐：https://v1.mk/vip】451
+      - US-192.203.230.137-184
+      - RELAY-203.30.191.19-207
+      - _GB_英国_2_1@8
+      - 德国【付费推荐：https://v1.mk/vip】163
+      - RELAY-104.21.80.120-171
+      - 美国-0-0-v2ray-hk80.af49c4e4c2ef.sanfen001.pics:80
+      - _IN_印度_2_2@34
+      - US_SSRSUB_52
+      - _AU_澳大利亚_0@4
+      - RELAY-172.67.199.34-025
+      - 美国【付费推荐：https://v1.mk/vip】6
+      - RELAY-23.227.38.33-120
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - _IN_印度_2_2@34
       - _SG_新加坡_1_8@20
+      - 美国 070
+      - _US_美国_9_0@21
+      - US-192.203.230.137-178
       - _US_美国_1_20@0
-      - _US_美国_4_13@20
-      - JP-13.230.6.197-200
-      - RELAY-162.159.246.44-247
-      - RELAY-172.67.46.53-145
+      - US-192.203.230.118-164
+      - 美国 048
       - US-192.203.230.137-181
-      - US-192.203.230.137-184
-      - US-192.203.230.138-182
-      - 伯利兹【付费推荐：https://v1.mk/vip】66
-      - 伯利兹【付费推荐：https://v1.mk/vip】72
-      - 美国 020
-      - 美国 023
-      - 美国 033
-      - 美国 038
-      - 美国 046
-      - 美国 047
-      - 美国 049
-      - 美国 066
-      - 美国【付费推荐：https://v1.mk/vip】114
+      - US-192.203.230.118-126
+      - _US_美国_12_0@28
+      - _US_美国_4_13@20
+      - CN-106.55.234.95-010
+      - RELAY-45.85.118.1-134
       - 美国【付费推荐：https://v1.mk/vip】174
-      - 美国【付费推荐：https://v1.mk/vip】447
-      - 美国-德克萨斯-休斯顿-v2ray-34.131.59.57:80
-      - 亚美尼亚【付费推荐：https://v1.mk/vip】451
+      - US-192.203.230.137-184
+      - RELAY-203.30.191.19-207
+      - _GB_英国_2_1@8
+      - 德国【付费推荐：https://v1.mk/vip】163
+      - RELAY-104.21.80.120-171
+      - 美国-0-0-v2ray-hk80.af49c4e4c2ef.sanfen001.pics:80
+      - _IN_印度_2_2@34
+      - US_SSRSUB_52
+      - _AU_澳大利亚_0@4
+      - RELAY-172.67.199.34-025
+      - 美国【付费推荐：https://v1.mk/vip】6
+      - RELAY-23.227.38.33-120
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _IN_印度_2_2@34
       - _SG_新加坡_1_8@20
+      - 美国 070
+      - _US_美国_9_0@21
+      - US-192.203.230.137-178
       - _US_美国_1_20@0
-      - _US_美国_4_13@20
-      - JP-13.230.6.197-200
-      - RELAY-162.159.246.44-247
-      - RELAY-172.67.46.53-145
+      - US-192.203.230.118-164
+      - 美国 048
       - US-192.203.230.137-181
-      - US-192.203.230.137-184
-      - US-192.203.230.138-182
-      - 伯利兹【付费推荐：https://v1.mk/vip】66
-      - 伯利兹【付费推荐：https://v1.mk/vip】72
-      - 美国 020
-      - 美国 023
-      - 美国 033
-      - 美国 038
-      - 美国 046
-      - 美国 047
-      - 美国 049
-      - 美国 066
-      - 美国【付费推荐：https://v1.mk/vip】114
+      - US-192.203.230.118-126
+      - _US_美国_12_0@28
+      - _US_美国_4_13@20
+      - CN-106.55.234.95-010
+      - RELAY-45.85.118.1-134
       - 美国【付费推荐：https://v1.mk/vip】174
-      - 美国【付费推荐：https://v1.mk/vip】447
-      - 美国-德克萨斯-休斯顿-v2ray-34.131.59.57:80
-      - 亚美尼亚【付费推荐：https://v1.mk/vip】451
+      - US-192.203.230.137-184
+      - RELAY-203.30.191.19-207
+      - _GB_英国_2_1@8
+      - 德国【付费推荐：https://v1.mk/vip】163
+      - RELAY-104.21.80.120-171
+      - 美国-0-0-v2ray-hk80.af49c4e4c2ef.sanfen001.pics:80
+      - _IN_印度_2_2@34
+      - US_SSRSUB_52
+      - _AU_澳大利亚_0@4
+      - RELAY-172.67.199.34-025
+      - 美国【付费推荐：https://v1.mk/vip】6
+      - RELAY-23.227.38.33-120
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -140,127 +144,132 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _IN_印度_2_2@34
       - _SG_新加坡_1_8@20
+      - 美国 070
+      - _US_美国_9_0@21
+      - US-192.203.230.137-178
       - _US_美国_1_20@0
-      - _US_美国_4_13@20
-      - JP-13.230.6.197-200
-      - RELAY-162.159.246.44-247
-      - RELAY-172.67.46.53-145
+      - US-192.203.230.118-164
+      - 美国 048
       - US-192.203.230.137-181
-      - US-192.203.230.137-184
-      - US-192.203.230.138-182
-      - 伯利兹【付费推荐：https://v1.mk/vip】66
-      - 伯利兹【付费推荐：https://v1.mk/vip】72
-      - 美国 020
-      - 美国 023
-      - 美国 033
-      - 美国 038
-      - 美国 046
-      - 美国 047
-      - 美国 049
-      - 美国 066
-      - 美国【付费推荐：https://v1.mk/vip】114
+      - US-192.203.230.118-126
+      - _US_美国_12_0@28
+      - _US_美国_4_13@20
+      - CN-106.55.234.95-010
+      - RELAY-45.85.118.1-134
       - 美国【付费推荐：https://v1.mk/vip】174
-      - 美国【付费推荐：https://v1.mk/vip】447
-      - 美国-德克萨斯-休斯顿-v2ray-34.131.59.57:80
-      - 亚美尼亚【付费推荐：https://v1.mk/vip】451
+      - US-192.203.230.137-184
+      - RELAY-203.30.191.19-207
+      - _GB_英国_2_1@8
+      - 德国【付费推荐：https://v1.mk/vip】163
+      - RELAY-104.21.80.120-171
+      - 美国-0-0-v2ray-hk80.af49c4e4c2ef.sanfen001.pics:80
+      - _IN_印度_2_2@34
+      - US_SSRSUB_52
+      - _AU_澳大利亚_0@4
+      - RELAY-172.67.199.34-025
+      - 美国【付费推荐：https://v1.mk/vip】6
+      - RELAY-23.227.38.33-120
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - 美国-0-0-v2ray-hk80.af49c4e4c2ef.sanfen001.pics:80
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - _IN_印度_2_2@34
       - _SG_新加坡_1_8@20
+      - 美国 070
+      - _US_美国_9_0@21
+      - US-192.203.230.137-178
       - _US_美国_1_20@0
-      - _US_美国_4_13@20
-      - JP-13.230.6.197-200
-      - RELAY-162.159.246.44-247
-      - RELAY-172.67.46.53-145
+      - US-192.203.230.118-164
+      - 美国 048
       - US-192.203.230.137-181
-      - US-192.203.230.137-184
-      - US-192.203.230.138-182
-      - 伯利兹【付费推荐：https://v1.mk/vip】66
-      - 伯利兹【付费推荐：https://v1.mk/vip】72
-      - 美国 020
-      - 美国 023
-      - 美国 033
-      - 美国 038
-      - 美国 046
-      - 美国 047
-      - 美国 049
-      - 美国 066
-      - 美国【付费推荐：https://v1.mk/vip】114
+      - US-192.203.230.118-126
+      - _US_美国_12_0@28
+      - _US_美国_4_13@20
+      - CN-106.55.234.95-010
+      - RELAY-45.85.118.1-134
       - 美国【付费推荐：https://v1.mk/vip】174
-      - 美国【付费推荐：https://v1.mk/vip】447
-      - 美国-德克萨斯-休斯顿-v2ray-34.131.59.57:80
-      - 亚美尼亚【付费推荐：https://v1.mk/vip】451
+      - US-192.203.230.137-184
+      - RELAY-203.30.191.19-207
+      - _GB_英国_2_1@8
+      - 德国【付费推荐：https://v1.mk/vip】163
+      - RELAY-104.21.80.120-171
+      - 美国-0-0-v2ray-hk80.af49c4e4c2ef.sanfen001.pics:80
+      - _IN_印度_2_2@34
+      - US_SSRSUB_52
+      - _AU_澳大利亚_0@4
+      - RELAY-172.67.199.34-025
+      - 美国【付费推荐：https://v1.mk/vip】6
+      - RELAY-23.227.38.33-120
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - _IN_印度_2_2@34
       - _SG_新加坡_1_8@20
+      - 美国 070
+      - _US_美国_9_0@21
+      - US-192.203.230.137-178
       - _US_美国_1_20@0
-      - _US_美国_4_13@20
-      - JP-13.230.6.197-200
-      - RELAY-162.159.246.44-247
-      - RELAY-172.67.46.53-145
+      - US-192.203.230.118-164
+      - 美国 048
       - US-192.203.230.137-181
-      - US-192.203.230.137-184
-      - US-192.203.230.138-182
-      - 伯利兹【付费推荐：https://v1.mk/vip】66
-      - 伯利兹【付费推荐：https://v1.mk/vip】72
-      - 美国 020
-      - 美国 023
-      - 美国 033
-      - 美国 038
-      - 美国 046
-      - 美国 047
-      - 美国 049
-      - 美国 066
-      - 美国【付费推荐：https://v1.mk/vip】114
+      - US-192.203.230.118-126
+      - _US_美国_12_0@28
+      - _US_美国_4_13@20
+      - CN-106.55.234.95-010
+      - RELAY-45.85.118.1-134
       - 美国【付费推荐：https://v1.mk/vip】174
-      - 美国【付费推荐：https://v1.mk/vip】447
-      - 美国-德克萨斯-休斯顿-v2ray-34.131.59.57:80
-      - 亚美尼亚【付费推荐：https://v1.mk/vip】451
+      - US-192.203.230.137-184
+      - RELAY-203.30.191.19-207
+      - _GB_英国_2_1@8
+      - 德国【付费推荐：https://v1.mk/vip】163
+      - RELAY-104.21.80.120-171
+      - 美国-0-0-v2ray-hk80.af49c4e4c2ef.sanfen001.pics:80
+      - _IN_印度_2_2@34
+      - US_SSRSUB_52
+      - _AU_澳大利亚_0@4
+      - RELAY-172.67.199.34-025
+      - 美国【付费推荐：https://v1.mk/vip】6
+      - RELAY-23.227.38.33-120
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - _IN_印度_2_2@34
       - _SG_新加坡_1_8@20
+      - 美国 070
+      - _US_美国_9_0@21
+      - US-192.203.230.137-178
       - _US_美国_1_20@0
-      - _US_美国_4_13@20
-      - JP-13.230.6.197-200
-      - RELAY-162.159.246.44-247
-      - RELAY-172.67.46.53-145
+      - US-192.203.230.118-164
+      - 美国 048
       - US-192.203.230.137-181
-      - US-192.203.230.137-184
-      - US-192.203.230.138-182
-      - 伯利兹【付费推荐：https://v1.mk/vip】66
-      - 伯利兹【付费推荐：https://v1.mk/vip】72
-      - 美国 020
-      - 美国 023
-      - 美国 033
-      - 美国 038
-      - 美国 046
-      - 美国 047
-      - 美国 049
-      - 美国 066
-      - 美国【付费推荐：https://v1.mk/vip】114
+      - US-192.203.230.118-126
+      - _US_美国_12_0@28
+      - _US_美国_4_13@20
+      - CN-106.55.234.95-010
+      - RELAY-45.85.118.1-134
       - 美国【付费推荐：https://v1.mk/vip】174
-      - 美国【付费推荐：https://v1.mk/vip】447
-      - 美国-德克萨斯-休斯顿-v2ray-34.131.59.57:80
-      - 亚美尼亚【付费推荐：https://v1.mk/vip】451
+      - US-192.203.230.137-184
+      - RELAY-203.30.191.19-207
+      - _GB_英国_2_1@8
+      - 德国【付费推荐：https://v1.mk/vip】163
+      - RELAY-104.21.80.120-171
+      - 美国-0-0-v2ray-hk80.af49c4e4c2ef.sanfen001.pics:80
+      - _IN_印度_2_2@34
+      - US_SSRSUB_52
+      - _AU_澳大利亚_0@4
+      - RELAY-172.67.199.34-025
+      - 美国【付费推荐：https://v1.mk/vip】6
+      - RELAY-23.227.38.33-120
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -276,31 +285,32 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - _IN_印度_2_2@34
       - _SG_新加坡_1_8@20
+      - 美国 070
+      - _US_美国_9_0@21
+      - US-192.203.230.137-178
       - _US_美国_1_20@0
-      - _US_美国_4_13@20
-      - JP-13.230.6.197-200
-      - RELAY-162.159.246.44-247
-      - RELAY-172.67.46.53-145
+      - US-192.203.230.118-164
+      - 美国 048
       - US-192.203.230.137-181
-      - US-192.203.230.137-184
-      - US-192.203.230.138-182
-      - 伯利兹【付费推荐：https://v1.mk/vip】66
-      - 伯利兹【付费推荐：https://v1.mk/vip】72
-      - 美国 020
-      - 美国 023
-      - 美国 033
-      - 美国 038
-      - 美国 046
-      - 美国 047
-      - 美国 049
-      - 美国 066
-      - 美国【付费推荐：https://v1.mk/vip】114
+      - US-192.203.230.118-126
+      - _US_美国_12_0@28
+      - _US_美国_4_13@20
+      - CN-106.55.234.95-010
+      - RELAY-45.85.118.1-134
       - 美国【付费推荐：https://v1.mk/vip】174
-      - 美国【付费推荐：https://v1.mk/vip】447
-      - 美国-德克萨斯-休斯顿-v2ray-34.131.59.57:80
-      - 亚美尼亚【付费推荐：https://v1.mk/vip】451
+      - US-192.203.230.137-184
+      - RELAY-203.30.191.19-207
+      - _GB_英国_2_1@8
+      - 德国【付费推荐：https://v1.mk/vip】163
+      - RELAY-104.21.80.120-171
+      - 美国-0-0-v2ray-hk80.af49c4e4c2ef.sanfen001.pics:80
+      - _IN_印度_2_2@34
+      - US_SSRSUB_52
+      - _AU_澳大利亚_0@4
+      - RELAY-172.67.199.34-025
+      - 美国【付费推荐：https://v1.mk/vip】6
+      - RELAY-23.227.38.33-120
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
